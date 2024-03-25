@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Article">
+  <ClassDiagramComponents>
+    <Class name="Article" package="" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="id" type="String" visibility="private"/>
+        <Field name="nom" type="String" visibility="private"/>
+        <Field name="prix" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="id"/>
+          <Argument type="String" name="nom"/>
+          <Argument type="double" name="prix"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getid" returnType="String" visibility="public"/>
+        <Method name="getnom" returnType="String" visibility="public"/>
+        <Method name="getprix" returnType="double" visibility="public"/>
+        <Method name="setid" returnType="void" visibility="public">
+          <Argument type="String" name="id"/>
+        </Method>
+        <Method name="setnom" returnType="void" visibility="public">
+          <Argument type="String" name="nom"/>
+        </Method>
+        <Method name="setprix" returnType="double" visibility="public">
+          <Argument type="double" name="prix"/>
+        </Method>
+        <Method name="afficherInfos" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
